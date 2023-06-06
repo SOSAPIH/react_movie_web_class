@@ -1,10 +1,24 @@
 .movies{
-    width: 40%;
-    background-color: white;
+    position: relative;
+}
+
+.movie_details{
+    display:none;
 }
 .movie_title{
-
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
 }
+.movies img{
+    position: absolute;
+}
+
+.movies + .movies{
+    margin-left: 50px;
+}
+
 .movie_genres{
 
 }

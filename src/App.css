@@ -42,6 +42,16 @@ table {
 	border-spacing: 0;
 }
 
+html, body{
+    height: 100%;
+}    
+
 body{
-    background-color: dimgray;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.movies_files{
+    display: flex;
 }
