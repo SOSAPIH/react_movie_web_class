@@ -1,29 +1,46 @@
-.movies{
-    position: relative;
-}
-
-.movie_details{
-    display:none;
-}
-.movie_title{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+.movie_all{
+    width: 700px;
+    height: auto;
+    margin-bottom: 3rem;
     display: flex;
-    justify-content: center;
-}
-.movies img{
-    position: absolute;
-}
-
-.movies + .movies{
-    margin-left: 50px;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
 }
 
-.movie_genres{
-
+img{
+    box-shadow: -5px -5px 8px;
 }
-.movie_genre{
 
+.movie_data{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.movie_title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.genres{
+    align-self: flex-start;
+    margin-top: -5rem;
+}
+.genre{
+    font-family: Cambria,
+        Cochin,
+        Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+    font-size: 1rem;
+    margin-bottom: 1px;
 }
 .movie_summary{
 

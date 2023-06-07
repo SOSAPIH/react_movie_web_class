@@ -42,16 +42,19 @@ table {
 	border-spacing: 0;
 }
 
-html, body{
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+html, body, .container {
     height: 100%;
+    width: 100%;
 }    
 
 body{
     background-color: gray;
-    display: flex;
-    align-items: center;
 }
 
-.movies_files{
+.container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 ;
 }

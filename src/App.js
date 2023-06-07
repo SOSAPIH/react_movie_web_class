@@ -23,11 +23,11 @@ class App extends Component {
     const { isLoading, movies } = this.state;
     return (
       <section className="container">
-        <div className="movies_files">{isLoading ? (<div className='loader'>
-          <span className='loader-text'>Loading...</span>
-        </div>) : movies.map(movie =>
-          <Movie key={movie.id} id={movie.id} genres={movie.genres} title={movie.title} year={movie.year} poster={movie.medium_cover_image} summary={movie.summary} />
-        )}</div>
+        {isLoading ? (<div className='loader'>
+          <span className='loading-text'>Loading...</span>
+        </div>): movies.map(movie => 
+          <Movie key={movie.id} id={movie.id} genres={movie.genres} title={movie.title} year={movie.year} poster={movie.medium_cover_image} summary={movie.summary} />  
+        )}
       </section>
     )
   }
